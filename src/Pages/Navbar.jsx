@@ -1,3 +1,4 @@
+import  { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
 const Navbar = () => {
@@ -69,7 +70,7 @@ const Navbar = () => {
             {/* Logo Section */}
             <div className="flex items-center space-x-4">
               <img
-                src="./images/logo_2.png"
+                src="./images/Spirit_26_logo.png"
                 alt="Spirit'25 Logo"
                 className="h-12 w-12"
               />
@@ -100,7 +101,7 @@ const Navbar = () => {
                 <span className="relative z-10">Schedule</span>
                 <div className="absolute inset-0 bg-sky-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left rounded-full hover:text-white"></div>
               </a> */}
-              {/* <motion.a
+              <motion.a
                 onClick={ScheduleClick}
                 target="_blank"
                 className="group relative px-8 py-3 text-lg md:text-xl overflow-hidden rounded-full border-2 border-blue-400 text-blue-400 transition-all duration-300 hover:text-white hover:bg-blue-400 ">
@@ -110,7 +111,7 @@ const Navbar = () => {
                   "See Schedule"
                 )}
               </motion.a>
-               */}
+              
             </div>
 
             {/* Mobile Menu Button */}

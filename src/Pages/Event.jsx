@@ -1,6 +1,5 @@
-import React from "react";
-import Abstract from "../Components/Abstract";
-import { FaBrain, FaLightbulb, FaMicroscope, FaQuestionCircle, FaTools } from "react-icons/fa";
+import { FaBrain, FaLightbulb, FaMicroscope } from "react-icons/fa";
+import PropTypes from "prop-types";
 
 // CSS Animations
 const styles = `
@@ -114,7 +113,15 @@ const Card = ({ item }) => {
     </div>
   );
 };
-
+Card.propTypes = {
+  item: PropTypes.shape({
+    eventName: PropTypes.string.isRequired,
+    buttontext: PropTypes.string,
+    buttonlink: PropTypes.string,
+    targettext: PropTypes.string,
+    targetlink: PropTypes.string
+  })
+};
 const Events = () => {
   const eventsDB = [
     // {
@@ -149,7 +156,6 @@ const Events = () => {
 
   return (
     <div id="events" className="py-16">
-      <Abstract />
       <style>{styles}</style>
 
       <div className="container mx-auto px-6 lg:px-12">

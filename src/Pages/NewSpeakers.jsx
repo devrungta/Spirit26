@@ -34,9 +34,7 @@ NewSpeakerCard.propTypes = {
 };
 
 const NewSpeakers = () => {
-    const newSpeakers = [
-        {}
-    ];
+    const newSpeakers = [];
     { /* Add new speakers here in the same format as in Speakers.jsx */ }
     return (
         <div id="speakers" className="py-16 ">

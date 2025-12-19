@@ -12,7 +12,7 @@ import Speakers from "./Pages/Speakers";
 import Particles from "react-tsparticles";
 import Testimonials from "./Pages/Testimonials";
 import { loadFull } from "tsparticles";
-import Banner from "./Pages/Banner";
+// import Banner from "./Pages/Banner";
 import VirtualConferrence from "./Pages/VirtualConferrence";
 import NewSpeakers from "./Pages/NewSpeakers";
 

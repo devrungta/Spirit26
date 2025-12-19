@@ -9,7 +9,7 @@ import { useReferralVerification } from "../hooks/useReferralVerification";
 
 
 const Home = () => {
-  const [showMessage, setShowMessage] = useState(false);
+  // const [showMessage, setShowMessage] = useState(false);
   const [showDialog, setShowDialog] = useState(false);
   const [referralCode, setReferralCode] = useState("");
   const { isCodeValid, checking, verifyReferralCode } = useReferralVerification();
@@ -36,7 +36,7 @@ const Home = () => {
               </span>
             </h1>
             <h2 className="text-xl md:text-xl font-bold bg-gradient-to-r from-sky-500 to-purple-500 text-transparent bg-clip-text">
-              Healthcare Synergy: Tradition and Innovation Aligned
+              Biofusion: Reshaping Healthcare Through Innovation  
             </h2>
           </div>
 
