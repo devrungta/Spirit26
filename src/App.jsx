@@ -12,9 +12,10 @@ import Speakers from "./Pages/Speakers";
 import Particles from "react-tsparticles";
 import Testimonials from "./Pages/Testimonials";
 import { loadFull } from "tsparticles";
-import Banner from "./Pages/Banner";
+// import Banner from "./Pages/Banner";
 import VirtualConferrence from "./Pages/VirtualConferrence";
 import NewSpeakers from "./Pages/NewSpeakers";
+import PaymentPage from "./Pages/PaymentPage"
 
 const App = () => {
 
@@ -114,7 +115,7 @@ const App = () => {
                 <>
                   <Navbar />
                   <div className="pt-20"></div>
-                  <div id="banner"><Banner /></div>
+                  {/* <div id="banner"><Banner /></div> */}
                   <div id="home"><Home /></div>
                   <div id="about"><About /></div>
                   <div id="new_speakers"><NewSpeakers /></div>
@@ -129,6 +130,7 @@ const App = () => {
             />
             <Route path="/ca-registration" element={<CARegistrationPage />} />
             <Route path="/virtual-conferrence" element={<VirtualConferrence />} />
+            <Route path="/payment" element={<PaymentPage />} />
 
           </Routes>
         </div>
