@@ -12,7 +12,7 @@ import Speakers from "./Pages/Speakers";
 import Particles from "react-tsparticles";
 import Testimonials from "./Pages/Testimonials";
 import { loadFull } from "tsparticles";
-// import Banner from "./Pages/Banner";
+import Banner from "./Pages/Banner";
 import VirtualConferrence from "./Pages/VirtualConferrence";
 import NewSpeakers from "./Pages/NewSpeakers";
 
@@ -114,7 +114,7 @@ const App = () => {
                 <>
                   <Navbar />
                   <div className="pt-20"></div>
-                  {/* <Banner /> */}
+                  <div id="banner"><Banner /></div>
                   <div id="home"><Home /></div>
                   <div id="about"><About /></div>
                   <div id="new_speakers"><NewSpeakers /></div>

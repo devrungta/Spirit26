@@ -1,7 +1,7 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Footer1 from "./Footer";
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
+// import Particles from "react-tsparticles";
+// import { loadFull } from "tsparticles";
 import { StarIcon, AcademicCapIcon, UserGroupIcon, ChartBarIcon } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
 
@@ -100,7 +100,7 @@ const CARegistrationPage = () => {
                             <span className="font-bold text-yellow-400 ">Golden Pass</span> -your gateway to unparalleled opportunities, premium access, and career-defining experiences in pharma-tech!
                         </p>
                         <motion.a
-                            href="https://forms.gle/bc7XmF5iYzFHhRee9"
+                            href="https://forms.gle/Y6Qab3YuE94jzqQc6"
                             target="_blank"
                             className="group relative w-full md:w-auto text-center px-8 py-3 text-lg md:text-xl overflow-hidden rounded-full border-2 border-blue-400 text-blue-400 transition-all duration-300 hover:text-white hover:bg-blue-400"
                         >
@@ -111,7 +111,7 @@ const CARegistrationPage = () => {
                         <div className="relative w-80 h-80 md:w-96 md:h-96
                         flex items-center justify-center overflow-hidden animate-float">
                             <img
-                                src="./images/logo_2.png"
+                                src="./images/Spirit_26_logo.png"
                                 alt="Organization Logo"
                                 className="w-70 h-70 object-contain"
                             />
@@ -225,7 +225,7 @@ const CARegistrationPage = () => {
                                 <h2 className="text-3xl font-bold mb-4">Ready to Make an Impact?</h2>
                                 <p className="text-xl mb-8 opacity-90">Join our team of innovators and shape the future of pharma-tech</p>
                                 <button
-                                    onClick={() => window.open("https://forms.gle/bc7XmF5iYzFHhRee9", "_blank")}
+                                    onClick={() => window.open("https://forms.gle/pmWs1di7qBBukmqH8", "_blank")}
                                     className="bg-gradient-to-r from-blue-500 to-sky-500 text-white px-12 py-4
                                 rounded-full text-lg font-semibold transform transition-all duration-300
                                 hover:scale-105 hover:shadow-xl"

@@ -36,7 +36,7 @@ const Home = () => {
               </span>
             </h1>
             <h2 className="text-xl md:text-xl font-bold bg-gradient-to-r from-sky-500 to-purple-500 text-transparent bg-clip-text">
-              Biofusion: Reshaping Healthcare Through Innovation  
+              Biofusion: Reshaping Healthcare Through Innovation
             </h2>
           </div>
 
@@ -51,7 +51,7 @@ const Home = () => {
           <div className="flex flex-col md:flex-col gap-4 w-full items-start">
             <div className="flex flex-col md:flex-row gap-4 w-full items-center">
               <motion.a
-                href="https://drive.google.com/file/d/1som1vM3mUClUezBAO77yX2hGMcaBaiBd/view?usp=sharing"
+                href="https://drive.google.com/file/d/1FDSxY53TB68L1MvnhKvj6IXaA7LmCFFA/view?usp=sharing"
                 target="_blank"
                 className="group relative w-full md:w-auto text-center px-8 py-3 text-lg md:text-xl overflow-hidden rounded-full border-2 border-blue-400 text-blue-400 transition-all duration-300 hover:text-white hover:bg-blue-400"
               >
@@ -164,7 +164,7 @@ const Home = () => {
 
                   <div className="space-y-3">
                     <button
-                      onClick={() => window.open("https://docs.google.com/forms/d/e/1FAIpQLSeLJH64UyqRWh59RX9tkMvlTdGHM-kU56PHKWUImnLLydSgtg/viewform", "_blank")}
+                      onClick={() => window.open("https://forms.gle/pmWs1di7qBBukmqH8", "_blank")}
                       disabled={!isCodeValid}
                       className={`w-full py-2.5 rounded-lg font-medium transition-all ${isCodeValid
                         ? "bg-blue-500 hover:bg-green-600"
@@ -175,7 +175,7 @@ const Home = () => {
                     </button>
 
                     <button
-                      onClick={() => window.open("https://docs.google.com/forms/d/e/1FAIpQLScvA8sc-eosVlQm7BNMeidlB03mp5K9M4veIgCBRH2XRnqX-A/viewform?usp=header", "_blank")}
+                      onClick={() => window.open("https://forms.gle/F98ps6LDJbrnJRGB8", "_blank")}
                       className="w-full py-3 rounded-lg font-bold bg-gradient-to-r from-sky-400 to-blue-500 hover:from-yellow-300 hover:to-amber-400 transition-all transform hover:scale-[1.02] shadow-lg hover:shadow-xl group"
                     >
                       <motion.div

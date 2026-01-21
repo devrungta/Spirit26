@@ -16,7 +16,7 @@ const Banner = () => {
                 🚀 Registration Deadline Coming Soon | 
                 <span>
                     <motion.a
-                        href="https://docs.google.com/forms/d/e/1FAIpQLScvA8sc-eosVlQm7BNMeidlB03mp5K9M4veIgCBRH2XRnqX-A/viewform"
+                        href="https://forms.gle/3ZXijgWxZEo8zwzS6"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-red-600 hover:text-green-800 transition-colors duration-200"
