@@ -1,6 +1,9 @@
 import { motion } from "framer-motion";
+// import { useNavigate } from "react-router-dom";
 
 const Banner = () => {
+    // const navigate = useNavigate();
+
     return (
         <div className="relative w-full py-3 bg-transparent overflow-hidden">
             {/* Gradient Background */}
@@ -13,13 +16,14 @@ const Banner = () => {
                 animate={{ x: "-100%" }}
                 transition={{ repeat: Infinity, duration: 12, ease: "linear" }}
             >
-                🚀 Registration Deadline Coming Soon | 
+                🚀 Early Bird Offer | Register at a Discount Now |
+                {/* 🚀 Registration Deadline Coming Soon |  */}
                 <span>
                     <motion.a
-                        href="https://forms.gle/3ZXijgWxZEo8zwzS6"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-red-600 hover:text-green-800 transition-colors duration-200"
+                        // onClick={() => navigate("/payment")}
                     >
                         Register Now 🚀
                     </motion.a>

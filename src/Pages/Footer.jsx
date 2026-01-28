@@ -19,13 +19,13 @@ const Footer = () => {
             The Annual Techno-Pharma Conference
           </p>
 
-          <div className="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-4 sm:divide-x sm:divide-gray-300">
+          <div className="mt-6 grid grid-cols-1 sm:grid-cols-4 gap-4 sm:divide-x sm:divide-gray-300">
             <div className="relative p-4 rounded-lg before:absolute before:inset-0 before:bg-gradient-radial before:from-gray-100 before:to-transparent before:rounded-lg before:z-[-1]">
               <p className="text-gray-700 font-bold">
                 <span className="block text-sky-500">Co-convenor: Anushka Mittal</span>
                 <a
                   href="mailto:anushka.mittal.phe23@itbhu.ac.in"
-                  className="hover:underline"
+                  className="hover:underline  truncate overflow-hidden text-ellipsis block w-full"
                 >
                   anushka.mittal.phe23@itbhu.ac.in
                 </a>
@@ -36,7 +36,7 @@ const Footer = () => {
             </div>
 
             <div className="relative p-4 rounded-lg before:absolute before:inset-0 before:bg-gradient-radial before:from-gray-100 before:to-transparent before:rounded-lg before:z-[-1]">
-              <h2 className="text-sky-500 font-bold">Convenor: Ria Patil</h2>
+              <h2 className="text-sky-500 font-bold">Convenor:<br /> Ria Patil</h2>
               <p className="text-gray-700 font-bold text-lg">
                 <a
                   href="mailto:ria.patil.phe23@itbhu.ac.in"
@@ -48,7 +48,7 @@ const Footer = () => {
               <span className="text-gray-500 font-bold">+91 9833 24513</span>
             </div>
             <div className="relative p-4 rounded-lg before:absolute before:inset-0 before:bg-gradient-radial before:from-gray-100 before:to-transparent before:rounded-lg before:z-[-1]">
-              <h2 className="text-sky-500 font-bold">Co-convenor: Rohit Shakya</h2>
+              <h2 className="text-sky-500 font-bold">Co-convenor: <br />Rohit Shakya</h2>
               <p className="text-gray-700 font-bold text-lg">
                 <a
                   href="mailto:rohit.shakya.phe23@itbhu.ac.in"
@@ -58,6 +58,20 @@ const Footer = () => {
                 </a>
               </p>
               <span className="text-gray-500 font-bold">+91 86190 91180</span>
+            </div>
+            <div className="relative p-4 rounded-lg before:absolute before:inset-0 before:bg-gradient-radial before:from-gray-100 before:to-transparent before:rounded-lg before:z-[-1]">
+              <p className="text-gray-700 font-bold">
+                <span className="block text-sky-500">Registrations: Amrendra Kumar</span>
+                <a
+                  href="mailto:amrendra.kumar.phe23@itbhu.ac.in"
+                  className="hover:underline  truncate overflow-hidden text-ellipsis block w-full"
+                >
+                  amrendra.kumar.phe23@itbhu.ac.in
+                </a>
+              </p>
+              <span className="text-gray-500 font-bold">+91 80922 54013</span>
+
+
             </div>
           </div>
 

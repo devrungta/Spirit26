@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { FaCreditCard, FaLock, FaArrowRight, FaDna } from 'react-icons/fa';
-import { GiSyringe, GiBrain, GiChemicalDrop } from 'react-icons/gi';
+import {  FaLock, FaArrowRight, FaDna } from 'react-icons/fa';
+import { GiSyringe,  GiChemicalDrop } from 'react-icons/gi';
 import { useReferralVerification } from "../hooks/useReferralVerification";
 
 
@@ -129,43 +129,52 @@ const PaymentPage = () => {
         )
     }
     const categories = [
+        //this was commented out to temporarily remove the categories from the payment page and can be added back in case ever needed in future
+        // {
+        //     id: "undergrad",
+        //     title: "Undergraduate/PG",
+        //     priceWithWorkshop: "₹2300*",
+        //     priceWithoutWorkshop: "₹2000*",
+        //     icon: GiBrain,
+        //     color: "from-blue-500 to-cyan-500"
+        // },
+        // {
+        //     id: "postgrad",
+        //     title: "Postdoc/PhD/RA",
+        //     priceWithWorkshop: "₹2800*",
+        //     priceWithoutWorkshop: "₹2300*",
+        //     icon: GiSyringe,
+        //     color: "from-purple-500 to-pink-500"
+        // },
+        // {
+        //     id: "faculty",
+        //     title: "Faculty Member",
+        //     priceWithWorkshop: "₹3800*",
+        //     priceWithoutWorkshop: "₹3300*",
+        //     icon: FaCreditCard,
+        //     color: "from-red-500 to-orange-500"
+        // },
+        // {
+        //     id: "delegate",
+        //     title: "Industry Delegate",
+        //     priceWithWorkshop: "₹5300*",
+        //     priceWithoutWorkshop: "₹4300*",
+        //     icon: FaLock,
+        //     color: "from-green-500 to-emerald-500"
+        // },
+        // {
+        //     id: "delegate",
+        //     title: "Foreign Delegate",
+        //     priceWithWorkshop: "USD 170",
+        //     priceWithoutWorkshop: "USD 150",
+        //     icon: FaLock,
+        //     color: "from-green-500 to-emerald-500"
+        // }
         {
-            id: "undergrad",
-            title: "Undergraduate/PG",
-            priceWithWorkshop: "₹2300*",
-            priceWithoutWorkshop: "₹2000*",
-            icon: GiBrain,
-            color: "from-blue-500 to-cyan-500"
-        },
-        {
-            id: "postgrad",
-            title: "Postdoc/PhD/RA",
-            priceWithWorkshop: "₹2800*",
-            priceWithoutWorkshop: "₹2300*",
-            icon: GiSyringe,
-            color: "from-purple-500 to-pink-500"
-        },
-        {
-            id: "faculty",
-            title: "Faculty Member",
-            priceWithWorkshop: "₹3800*",
-            priceWithoutWorkshop: "₹3300*",
-            icon: FaCreditCard,
-            color: "from-red-500 to-orange-500"
-        },
-        {
-            id: "delegate",
-            title: "Industry Delegate",
-            priceWithWorkshop: "₹5300*",
-            priceWithoutWorkshop: "₹4300*",
-            icon: FaLock,
-            color: "from-green-500 to-emerald-500"
-        },
-        {
-            id: "delegate",
-            title: "Foreign Delegate",
-            priceWithWorkshop: "USD 170",
-            priceWithoutWorkshop: "USD 150",
+            id: "all",
+            title: "Participants",
+            withEarlyBird: "INR 2250",
+            withoutEarlyBird: "INR 2750",
             icon: FaLock,
             color: "from-green-500 to-emerald-500"
         }
@@ -281,17 +290,17 @@ const PaymentPage = () => {
 
                                     <div className="space-y-3 mb-6">
                                         <div>
-                                            <p className="text-gray-600 text-sm mb-1">With Workshop</p>
+                                            <p className="text-gray-600 text-sm mb-1">With Early Bird</p>
                                             <p className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-sky-600 text-transparent bg-clip-text">
-                                                {category.priceWithWorkshop}
+                                                {category.withEarlyBird}
                                             </p>
                                         </div>
-                                        <div>
-                                            <p className="text-gray-600 text-sm mb-1">Without Workshop</p>
+                                        {/* <div>
+                                            <p className="text-gray-600 text-sm mb-1">Without Early Bird</p>
                                             <p className="text-xl font-semibold text-gray-700">
-                                                {category.priceWithoutWorkshop}
+                                                {category.withoutEarlyBird}
                                             </p>
-                                        </div>
+                                        </div> */}
                                     </div>
 
                                     {/* Button */}
