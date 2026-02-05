@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
-// import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Banner = () => {
-    // const navigate = useNavigate();
+    const navigate = useNavigate();
 
     return (
         <div className="relative w-full py-3 bg-transparent overflow-hidden">
@@ -23,7 +23,7 @@ const Banner = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-red-600 hover:text-green-800 transition-colors duration-200"
-                        // onClick={() => navigate("/payment")}
+                        onClick={() => navigate("/payment")}
                     >
                         Register Now 🚀
                     </motion.a>

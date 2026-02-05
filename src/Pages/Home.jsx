@@ -1,16 +1,15 @@
 import { Syringe } from 'lucide-react';
-// import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
-import { useState } from "react";
+// import { useState } from "react";
 import { FaMicroscope, FaDna, FaPills, FaPrescriptionBottle } from 'react-icons/fa'; // Icons from react-icons
 import { GiChemicalDrop, GiMedicines, GiPillDrop } from 'react-icons/gi';
 import { GiSyringe, GiBrain } from 'react-icons/gi';
 
-//TODO: Change the button links when the registrations begin and take the imports and navigation initializations out of comments accordingly
 
 const Home = () => {
-  // const navigate = useNavigate();
-  const [comingSoon, setComingSoon] = useState(false);
+  const navigate = useNavigate();
+  // const [comingSoon, setComingSoon] = useState(false);
   // const [showMessage, setShowMessage] = useState(false);
 
 
@@ -42,7 +41,6 @@ const Home = () => {
               2026 | IIT BHU Varanasi
             </span>
           </div>
-          {/* TODO: Add the full dates above when decided. */}
           {/* Buttons Section */}
           <div className="flex flex-col md:flex-col gap-4 w-full items-start">
             <div className="flex flex-col md:flex-row gap-4 w-full items-center">
@@ -55,14 +53,14 @@ const Home = () => {
               </motion.a>
 
               {/*This is the button to be added when the registrations begin*/}
-              {/* <button
+              <button
                 onClick={()=> navigate("/payment")}
                 className="group relative w-full md:w-auto text-center px-8 py-3 text-lg md:text-xl overflow-hidden rounded-full border-2 border-blue-400 text-blue-400 transition-all duration-300 hover:text-white hover:bg-blue-400"
               >
                 Register Now
-              </button> */}
+              </button>
               {/*This is the button to be removed when the registrations begin*/}
-              <button
+              {/* <button
                 onClick={() => setComingSoon(true)}
                 className={`group relative w-full md:w-auto text-center px-8 py-3 text-lg md:text-xl overflow-hidden rounded-full border-2 transition-all duration-300
         ${comingSoon
@@ -72,7 +70,7 @@ const Home = () => {
                 disabled={comingSoon}
               >
                 {comingSoon ? "Coming Soon" : "Register Now"}
-              </button>
+              </button> */}
 
             </div>
             <motion.a

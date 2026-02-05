@@ -3,13 +3,12 @@ import Footer1 from "./Footer";
 // import Particles from "react-tsparticles";
 // import { loadFull } from "tsparticles";
 import { StarIcon, AcademicCapIcon, UserGroupIcon, ChartBarIcon } from "@heroicons/react/24/solid";
-import { motion } from "framer-motion";
 
 const CARegistrationPage = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
-
+    const [comingSoon, setComingSoon] = useState(false);
     const scrollRef = useRef(null);
     const [scrollPosition, setScrollPosition] = useState(0);
 
@@ -99,13 +98,25 @@ const CARegistrationPage = () => {
                             <br />
                             <span className="font-bold text-yellow-400 ">Golden Pass</span> -your gateway to unparalleled opportunities, premium access, and career-defining experiences in pharma-tech!
                         </p>
-                        <motion.a
-                            href="https://forms.gle/Y6Qab3YuE94jzqQc6"
-                            target="_blank"
-                            className="group relative w-full md:w-auto text-center px-8 py-3 text-lg md:text-xl overflow-hidden rounded-full border-2 border-blue-400 text-blue-400 transition-all duration-300 hover:text-white hover:bg-blue-400"
+                        {/* <button
+                                    onClick={() => window.open("https://forms.gle/pmWs1di7qBBukmqH8", "_blank")}
+                                    className="bg-gradient-to-r from-blue-500 to-sky-500 text-white px-12 py-4
+                                rounded-full text-lg font-semibold transform transition-all duration-300
+                                hover:scale-105 hover:shadow-xl"
+                                >
+                                    Start Your Journey Now
+                                </button> */}
+                        <button
+                            onClick={() => setComingSoon(true)}
+                            className={`group relative w-full md:w-auto text-center px-8 py-3 text-lg md:text-xl overflow-hidden rounded-full border-2 transition-all duration-300
+                                        ${comingSoon
+                                    ? "border-red-400 text-red-400 cursor-not-allowed"
+                                    : "border-blue-400 text-blue-400 hover:text-white hover:bg-blue-400"
+                                }`}
+                            disabled={comingSoon}
                         >
-                            Start Your Journey Now
-                        </motion.a>
+                            {comingSoon ? "Coming Soon" : "Start Your Journey Now"}
+                        </button>
                     </div>
                     <div className="flex-1 flex justify-center">
                         <div className="relative w-80 h-80 md:w-96 md:h-96
@@ -154,29 +165,6 @@ const CARegistrationPage = () => {
                 </section>
 
                 {/* Testimonials Section */}
-                {/* <section className="relative z-10 py-16">
-                <div className="container mx-auto px-4">
-                    <h2 className="text-4xl font-bold text-center mb-12">Hear From Our Ambassadors</h2>
-                    <div className="grid md:grid-cols-2 gap-8">
-                        {testimonials.map(({ text, name, college }, index) => (
-                            <div
-                                key={index}
-                                className="p-8 bg-white/5 rounded-2xl border border-white/10 backdrop-blur-lg
-                                animate-fade-in"
-                            >
-                                <p className="text-xl italic mb-6">{text}</p>
-                                <div className="flex items-center gap-4">
-                                    <div className="w-12 h-12 bg-blue-400 rounded-full"></div>
-                                    <div>
-                                        <h4 className="font-bold">{name}</h4>
-                                        <p className="text-sm opacity-75">{college}</p>
-                                    </div>
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section> */}
                 <div className="w-full overflow-x-hidden relative">
                     <h2 className="text-4xl font-bold text-center mb-12 py-10 px-5">
                         Testimonials from Our Ambassadors
@@ -224,13 +212,24 @@ const CARegistrationPage = () => {
                             <div className="bg-gray-900 rounded-xl p-8 shadow-2xl">
                                 <h2 className="text-3xl font-bold mb-4">Ready to Make an Impact?</h2>
                                 <p className="text-xl mb-8 opacity-90">Join our team of innovators and shape the future of pharma-tech</p>
-                                <button
+                                {/* <button
                                     onClick={() => window.open("https://forms.gle/pmWs1di7qBBukmqH8", "_blank")}
                                     className="bg-gradient-to-r from-blue-500 to-sky-500 text-white px-12 py-4
                                 rounded-full text-lg font-semibold transform transition-all duration-300
                                 hover:scale-105 hover:shadow-xl"
                                 >
                                     Start Your Journey Now
+                                </button> */}
+                                <button
+                                    onClick={() => setComingSoon(true)}
+                                    className={`group relative w-full md:w-auto text-center px-8 py-3 text-lg md:text-xl overflow-hidden rounded-full border-2 transition-all duration-300
+                                        ${comingSoon
+                                            ? "border-red-400 text-red-400 cursor-not-allowed"
+                                            : "border-blue-400 text-blue-400 hover:text-white hover:bg-blue-400"
+                                        }`}
+                                    disabled={comingSoon}
+                                >
+                                    {comingSoon ? "Coming Soon" : "Start Your Journey Now"}
                                 </button>
                             </div>
                         </div>
