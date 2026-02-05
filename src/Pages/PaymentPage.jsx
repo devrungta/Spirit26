@@ -472,7 +472,7 @@ const PaymentPage = () => {
                                     <div className="grid grid-cols-2 gap-4">
                                         <div className="bg-white rounded-lg p-4 border border-blue-200">
                                             <p className="text-sm text-gray-600 font-medium mb-1">Branch Name</p>
-                                            <p className="text-lg font-semibold text-gray-800">II BHU Branch, Varanasi</p>
+                                            <p className="text-lg font-semibold text-gray-800">IIT BHU Branch, Varanasi</p>
                                         </div>
                                         <div className="bg-white rounded-lg p-4 border border-blue-200">
                                             <p className="text-sm text-gray-600 font-medium mb-1">Account Type</p>
