@@ -1,5 +1,7 @@
 /** @format */
 
+import PropTypes from 'prop-types';
+
 const Card = ({ item }) => {
   return (
     <div className="group relative bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 p-6 text-center">
@@ -29,6 +31,16 @@ const Card = ({ item }) => {
       <div className="absolute inset-0 bg-sky-500 opacity-0 group-hover:opacity-10 transition-opacity duration-300 rounded-lg"></div>
     </div>
   );
+};
+
+Card.propTypes = {
+  item: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    image: PropTypes.string.isRequired,
+    des: PropTypes.string.isRequired,
+    company: PropTypes.string.isRequired,
+    logo: PropTypes.string,
+  }).isRequired,
 };
 
 const Speakers = () => {
