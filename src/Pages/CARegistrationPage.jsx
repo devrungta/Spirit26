@@ -133,6 +133,73 @@ const CARegistrationPage = () => {
             </div>
             <div className="relative min-h-screen bg-gradient-to-br from-sky-400 via-sky-600 to-teal-600 overflow-hidden text-white">
                 {/* Benefits Section */}
+                {/* Incentive Slabs Section */}
+                <section className="relative z-10 py-16 bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-lg">
+                    <div className="container mx-auto px-4">
+
+                        <h2 className="text-4xl font-bold text-center mb-12">
+                            Campus Ambassador <span className="text-yellow-300">Incentive Slabs</span>
+                        </h2>
+
+                        <div className="max-w-4xl mx-auto overflow-hidden rounded-2xl border border-white/10">
+
+                            <table className="w-full text-left text-white">
+
+                                <thead className="bg-white/10">
+                                    <tr>
+                                        <th className="px-6 py-4 text-lg font-semibold">Referrals</th>
+                                        <th className="px-6 py-4 text-lg font-semibold">Perks & Rewards</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+
+                                    <tr className="border-t border-white/10">
+                                        <td className="px-6 py-4 font-medium">0 – 4</td>
+                                        <td className="px-6 py-4 text-gray-200">No discount</td>
+                                    </tr>
+
+                                    <tr className="border-t border-white/10">
+                                        <td className="px-6 py-4 font-medium">5 – 7</td>
+                                        <td className="px-6 py-4 text-gray-200">
+                                            30% discount on event registration
+                                        </td>
+                                    </tr>
+
+                                    <tr className="border-t border-white/10">
+                                        <td className="px-6 py-4 font-medium">8 – 9</td>
+                                        <td className="px-6 py-4 text-gray-200">
+                                            50% discount on event registration
+                                        </td>
+                                    </tr>
+
+                                    <tr className="border-t border-white/10">
+                                        <td className="px-6 py-4 font-medium">10</td>
+                                        <td className="px-6 py-4 text-gray-200">
+                                            Full registration fee waiver
+                                        </td>
+                                    </tr>
+
+                                    <tr className="border-t border-yellow-400 bg-yellow-400/10">
+                                        <td className="px-6 py-4 font-bold text-yellow-300">10+</td>
+                                        <td className="px-6 py-4 text-yellow-200 font-semibold">
+                                            Full waiver + SPIRIT merch + Exclusive Networking Dinner Passes
+                                        </td>
+                                    </tr>
+
+                                </tbody>
+
+                            </table>
+
+                        </div>
+
+                        <p className="text-center text-sm text-gray-300 mt-6 italic">
+                            *Top performer rewards are limited and awarded at the discretion of the organizing committee.
+                        </p>
+
+                    </div>
+                </section>
+
                 <section className="relative z-10 py-16 bg-white/10 backdrop-blur-lg">
                     <div className="container mx-auto px-4">
                         <h2 className="text-4xl font-bold text-center mb-12">What does the <span className="text-yellow-300">Golden Pass</span> Entail?</h2>
