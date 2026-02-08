@@ -1,4 +1,4 @@
-import { FaBrain, FaLightbulb, FaMicroscope } from "react-icons/fa";
+import { FaBrain, FaLightbulb, FaMicroscope, FaQuestionCircle, FaBug } from "react-icons/fa";
 import PropTypes from "prop-types";
 
 // CSS Animations
@@ -57,14 +57,16 @@ const styles = `
 
 const getIcon = (eventName) => {
   switch (eventName) {
-    case "Poster Presentation":
+    case "PharmaQuest":
       return <FaMicroscope className="icon-animation icon-scale-hover icon-theme text-[8rem] opacity-80" />;
-    case "AI Biohackathon":
+    case "PharmaNexus : Strategic Case Competition":
       return <FaBrain className="icon-animation icon-scale-hover icon-theme text-[8rem] opacity-80" />;
-    case "Synapse Strategy":
+    case "InnovareX : Poster & Digital Research Showcase":
       return <FaLightbulb className="icon-animation icon-scale-hover icon-theme text-[8rem] opacity-80" />;
-    // case "RxQuest: Quiz":
-    //   return <FaQuestionCircle className="icon-animation icon-scale-hover icon-theme text-[8rem] opacity-80" />;
+    case "Fabrica360 : Fabrica Modelling Competition":
+      return <FaQuestionCircle className="icon-animation icon-scale-hover icon-theme text-[8rem] opacity-80" />;
+    case "Codecure : AI Hackathon":
+      return <FaBug className="icon-animation icon-scale-hover icon-theme text-[8rem] opacity-80" />;
     default:
       return null;
   }
@@ -78,7 +80,7 @@ const Card = ({ item }) => {
       </div>
 
       <div className="relative z-10 flex flex-col items-center justify-center h-full w-full">
-        <div className="text-center text-lg font-semibold text-sky-800 px-4 mb-2 text-enhanced">
+        <div className="text-center text-lg font-bold text-sky-800 px-4 mb-2 text-enhanced">
           {item.eventName}
         </div>
 
@@ -124,34 +126,41 @@ Card.propTypes = {
 };
 const Events = () => {
   const eventsDB = [
-    // {
-    //   eventName: "Poster Presentation",
-    //   buttontext: "View Opportunity",
-    //   buttonlink: "https://unstop.com/events/canvas-of-innovation-spirit-25-iit-bhu-1384427",
-    //   targettext: "View Brochure",
-    //   targetlink: "https://drive.google.com/file/d/11-6sYFvJU1yBi6ZMhNuEntCE9f_4BJAA/view?usp=sharing",
-    // },
-    // {
-    //   eventName: "Bio-Hackathon",
-    //   buttontext: "View Opportunity",
-    //   buttonlink: "https://unstop.com/hackathons/healthtech-and-ai-hackathon-spirit-25-iit-bhu-1384428",
-    //   targettext: "",
-    //   targetlink: "",
-    // },
-    // {
-    //   eventName: "Synapse Strategy",
-    //   buttontext: "View Opportunity",
-    //   buttonlink: "https://unstop.com/competitions/synapse-strategy-spirit-25-indian-institute-of-technology-banaras-hindu-university-varanasi-1384936",
-    //   targettext: "",
-    //   targetlink: "",
-    // },
-    // {
-    //   eventName: "Fabrica Modelling",
-    //   buttontext: "View Opportunity",
-    //   buttonlink: "https://forms.gle/oA8M5j3iRphTLbDV7",
-    //   targettext: "",
-    //   targetlink: "",
-    // },
+    {
+      eventName: "PharmaQuest",
+      buttontext: "View Opportunity",
+      buttonlink: "https://unstop.com/quiz/pharmaquest-spirit26-iit-bhu-1637644",
+      targettext: "",
+      targetlink: "",
+    },
+    {
+      eventName: "PharmaNexus : Strategic Case Competition",
+      buttontext: "View Opportunity",
+      buttonlink: "https://unstop.com/competitions/pharmanexus-strategic-case-competition-spirit26-iit-bhu-1624610",
+      targettext: "",
+      targetlink: "",
+    },
+    {
+      eventName: "InnovareX : Poster & Digital Research Showcase",
+      buttontext: "View Opportunity",
+      buttonlink: "https://unstop.com/events/innovarex-poster-digital-research-showcase-spirit26-iit-bhu-1624616",
+      targettext: "",
+      targetlink: "",
+    },
+    {
+      eventName: "Fabrica360 : Fabrica Modelling Competition",
+      buttontext: "View Opportunity",
+      buttonlink: "https://unstop.com/events/fabrica360-fabrica-modelling-competition-spirit26-iit-bhu-1630759",
+      targettext: "",
+      targetlink: "",
+    },
+    {
+      eventName: "Codecure : AI Hackathon",
+      buttontext: "View Opportunity",
+      buttonlink: "https://unstop.com/hackathons/codecure-ai-hackathon-spirit26-iit-bhu-1624607",
+      targettext: "",
+      targetlink: "",
+    },
   ];
 
   return (
