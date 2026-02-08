@@ -8,7 +8,6 @@ const CARegistrationPage = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
-    const [comingSoon, setComingSoon] = useState(false);
     const scrollRef = useRef(null);
     const [scrollPosition, setScrollPosition] = useState(0);
 
@@ -98,15 +97,15 @@ const CARegistrationPage = () => {
                             <br />
                             <span className="font-bold text-yellow-400 ">Golden Pass</span> -your gateway to unparalleled opportunities, premium access, and career-defining experiences in pharma-tech!
                         </p>
-                        {/* <button
-                                    onClick={() => window.open("https://forms.gle/pmWs1di7qBBukmqH8", "_blank")}
+                        <button
+                                    onClick={() => window.open("https://forms.gle/Y6Qab3YuE94jzqQc6", "_blank")}
                                     className="bg-gradient-to-r from-blue-500 to-sky-500 text-white px-12 py-4
                                 rounded-full text-lg font-semibold transform transition-all duration-300
                                 hover:scale-105 hover:shadow-xl"
                                 >
                                     Start Your Journey Now
-                                </button> */}
-                        <button
+                                </button>
+                        {/* <button
                             onClick={() => setComingSoon(true)}
                             className={`group relative w-full md:w-auto text-center px-8 py-3 text-lg md:text-xl overflow-hidden rounded-full border-2 transition-all duration-300
                                         ${comingSoon
@@ -116,7 +115,7 @@ const CARegistrationPage = () => {
                             disabled={comingSoon}
                         >
                             {comingSoon ? "Coming Soon" : "Start Your Journey Now"}
-                        </button>
+                        </button> */}
                     </div>
                     <div className="flex-1 flex justify-center">
                         <div className="relative w-80 h-80 md:w-96 md:h-96
@@ -279,25 +278,15 @@ const CARegistrationPage = () => {
                             <div className="bg-gray-900 rounded-xl p-8 shadow-2xl">
                                 <h2 className="text-3xl font-bold mb-4">Ready to Make an Impact?</h2>
                                 <p className="text-xl mb-8 opacity-90">Join our team of innovators and shape the future of pharma-tech</p>
-                                {/* <button
-                                    onClick={() => window.open("https://forms.gle/pmWs1di7qBBukmqH8", "_blank")}
+                                <button
+                                    onClick={() => window.open("https://forms.gle/Y6Qab3YuE94jzqQc6", "_blank")}
                                     className="bg-gradient-to-r from-blue-500 to-sky-500 text-white px-12 py-4
                                 rounded-full text-lg font-semibold transform transition-all duration-300
                                 hover:scale-105 hover:shadow-xl"
                                 >
                                     Start Your Journey Now
-                                </button> */}
-                                <button
-                                    onClick={() => setComingSoon(true)}
-                                    className={`group relative w-full md:w-auto text-center px-8 py-3 text-lg md:text-xl overflow-hidden rounded-full border-2 transition-all duration-300
-                                        ${comingSoon
-                                            ? "border-red-400 text-red-400 cursor-not-allowed"
-                                            : "border-blue-400 text-blue-400 hover:text-white hover:bg-blue-400"
-                                        }`}
-                                    disabled={comingSoon}
-                                >
-                                    {comingSoon ? "Coming Soon" : "Start Your Journey Now"}
                                 </button>
+                            
                             </div>
                         </div>
                     </div>

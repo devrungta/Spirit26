@@ -19,13 +19,13 @@ const VirtualConference = () => {
                     Don’t miss out on this opportunity to be part of India’s premier pharmaceutical conference, now accessible online!
                 </p>
                 <button
-                    // onClick={() =>window.open("", "_blank")}
+                    onClick={() =>window.open("https://forms.gle/uHcFQC35A5wfYwkT6 ", "_blank")}
                     className="relative inline-flex items-center justify-center px-6 py-3 text-sm font-medium text-sky-500 border-2 border-sky-500 rounded-full group hover:text-white transition-all duration-300"
                 >
                     <span className="absolute inset-0 bg-sky-500 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left rounded-full"></span>
-                    <span className="relative z-10">Virtual Conference <span className="text-red-500">Coming Soon</span></span>
+                    <span className="relative z-10">Virtual Conference</span>
                 </button>
-                {/* <span className="text-red-700 text-center">Limited seats: Please register at earliest convenience</span> */}
+                <span className="text-red-700 text-center">Limited seats: Please register at earliest convenience</span>
             </div>
         </div>
     );
