@@ -13,6 +13,7 @@ import Particles from "react-tsparticles";
 import Testimonials from "./Pages/Testimonials";
 import { loadFull } from "tsparticles";
 import Banner from "./Pages/Banner";
+import Workshop from "./Pages/Workshop";
 import VirtualConferrence from "./Pages/VirtualConferrence";
 import NewSpeakers from "./Pages/NewSpeakers";
 import PaymentPage from "./Pages/PaymentPage"
@@ -122,6 +123,7 @@ const App = () => {
                   <div id="speakers"><Speakers /></div>
                   <div id="ca"><CA /></div>
                   <div id="virtual_conferrence"><VirtualConferrence /></div>
+                  <div id="workshop"><Workshop /></div>
                   <div id="events"><Event /></div>
                   <div id="testimonials"><Testimonials /></div>
                   <div id="footer1"><Footer1 /></div>

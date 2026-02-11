@@ -32,6 +32,7 @@ const Navbar = () => {
     { name: "Home", href: "#home" },
     { name: "Speakers", href: "#speakers" },
     { name: "Events", href: "#events" },
+    { name: "Workshop", href: "#workshop" },
     { name: "CA", href: "#ca" },
     { name: "Conferrence", href: "#virtual_conferrence" },
     { name: "Contact", href: "#footer1" },
@@ -133,6 +134,7 @@ const Navbar = () => {
               <button onClick={() => handleClick("speakers")} className="block px-4 py-2 text-gray-700 hover:bg-sky-100 hover:text-sky-600 rounded-lg w-full text-left">Speakers</button>
               <button onClick={() => handleClick("events")} className="block px-4 py-2 text-gray-700 hover:bg-sky-100 hover:text-sky-600 rounded-lg w-full text-left">Events</button>
               <button onClick={() => handleClick("ca")} className="block px-4 py-2 text-gray-700 hover:bg-sky-100 hover:text-sky-600 rounded-lg w-full text-left">CA</button>
+              <button onClick={() => handleClick("workshop")} className="block px-4 py-2 text-gray-700 hover:bg-sky-100 hover:text-sky-600 rounded-lg w-full text-left">Workshop</button>
               <button onClick={() => handleClick("virtual_conferrence")} className="block px-4 py-2 text-gray-700 hover:bg-sky-100 hover:text-sky-600 rounded-lg w-full text-left">Conferrence</button>
               <button onClick={() => handleClick("footer1")} className="block px-4 py-2 text-gray-700 hover:bg-sky-100 hover:text-sky-600 rounded-lg w-full text-left">Contact</button>
               {/* <button onClick={() => ScheduleClick()} className="block px-4 py-2 text-gray-700 hover:bg-sky-100 hover:text-sky-600 rounded-lg w-full text-left">{
