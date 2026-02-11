@@ -45,7 +45,7 @@ const Home = () => {
           <div className="flex flex-col md:flex-col gap-4 w-full items-start">
             <div className="flex flex-col md:flex-row gap-4 w-full items-center">
               <motion.a
-                href="https://drive.google.com/file/d/1FDSxY53TB68L1MvnhKvj6IXaA7LmCFFA/view?usp=sharing"
+                href="https://drive.google.com/file/d/1T1u-cpzcc2JzE9MNH1iaeXgxBm64P3Gi/view?usp=drivesdk"
                 target="_blank"
                 className="group relative w-full md:w-auto text-center px-8 py-3 text-lg md:text-xl overflow-hidden rounded-full border-2 border-blue-400 text-blue-400 transition-all duration-300 hover:text-white hover:bg-blue-400"
               >
