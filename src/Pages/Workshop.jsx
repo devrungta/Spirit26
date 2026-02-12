@@ -2,7 +2,7 @@ import { HiBookOpen } from "react-icons/hi2";
 
 const Workshop = () => {
     return (
-        <div className="bg-white shadow-xl rounded-2xl p-6 max-w-3xl mx-auto border border-gray-200">
+        <div className="bg-white shadow-xl rounded-2xl p-6 max-w-3xl mx-auto border border-gray-200 mt-10">
                     <h2 className="text-2xl font-bold text-center text-sky-500 mb-6">
                         Want to join the workshop?? 
                     </h2>
