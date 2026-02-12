@@ -73,6 +73,7 @@ const Home = () => {
               </button> */}
 
             </div>
+            <div className="flex flex-col md:flex-row gap-4 w-full items-center">
             <motion.a
               onClick={() => {
                 document.getElementById("virtual_conferrence").scrollIntoView({ behavior: "smooth" });
@@ -82,7 +83,18 @@ const Home = () => {
               className="group relative w-full md:w-auto text-center px-8 py-3 text-lg md:text-xl overflow-hidden rounded-full border-2 border-blue-400 text-blue-400 transition-all duration-300 hover:text-white hover:bg-blue-400"
             >
               Virtual Conference
-            </motion.a>
+              </motion.a>
+              <motion.a
+                onClick={() => {
+                  document.getElementById("workshop").scrollIntoView({ behavior: "smooth" });
+                }}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group relative w-full md:w-auto text-center px-8 py-3 text-lg md:text-xl overflow-hidden rounded-full border-2 border-blue-400 text-blue-400 transition-all duration-300 hover:text-white hover:bg-blue-400"
+              >
+                Workshop
+              </motion.a>
+            </div>
           </div>
         </div>
         {/* Right Section - Spread-Out Pharma Icons */}
