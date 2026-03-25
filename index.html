@@ -16,22 +16,65 @@
   <meta property="og:url" content="https://spiritiitbhu.org/" />
   <meta property="og:image" content="https://spiritiitbhu.org/images/Spirit_26_logo.png" />
   <title>SPIRIT IIT BHU 2026</title>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Event",
-    "@id": "https://spiritiitbhu.org/#event",
-    "name": "SPIRIT IIT BHU 2026",
-    "description": "International Conference on Pharmaceutical Innovations & Annual Techno-Pharma Conclave hosted by IIT BHU Varanasi.",
-  
-    "startDate": "2026-04-03T09:00",
-    "endDate": "2026-04-05T21:00",
-  
-    "eventStatus": "https://schema.org/EventScheduled",
-    "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
-  
-    "location": {
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+
+    {
+      "@type": "Event",
+      "@id": "https://spiritiitbhu.org/#event",
+      "name": "SPIRIT IIT BHU 2026",
+      "description": "International Conference on Pharmaceutical Innovations & Annual Techno-Pharma Conclave hosted by IIT BHU Varanasi.",
+      "startDate": "2026-04-03T09:00",
+      "endDate": "2026-04-05T21:00",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+
+      "location": { "@id": "https://spiritiitbhu.org/#venue" },
+
+      "image": [
+        "https://spiritiitbhu.org/images/Spirit_26_logo.png"
+      ],
+
+      "organizer": {
+        "@type": "Organization",
+        "name": "SPIRIT IIT BHU",
+        "url": "https://spiritiitbhu.org"
+      },
+
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Standard Ticket (Without Referral)",
+          "url": "https://spiritiitbhu.org/payment",
+          "price": "2750",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "name": "Discounted Ticket (With Referral Code)",
+          "url": "https://spiritiitbhu.org/payment",
+          "price": "2250",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        }
+      ],
+
+      "performer": [
+        { "@id": "https://spiritiitbhu.org/#parthasarathy" },
+        { "@id": "https://spiritiitbhu.org/#pulok" },
+        { "@id": "https://spiritiitbhu.org/#ranjana" },
+        { "@id": "https://spiritiitbhu.org/#sanjeeb" },
+        { "@id": "https://spiritiitbhu.org/#sashi" },
+        { "@id": "https://spiritiitbhu.org/#shivam" }
+      ]
+    },
+
+    {
       "@type": "Place",
+      "@id": "https://spiritiitbhu.org/#venue",
       "name": "Indian Institute of Technology (BHU) Varanasi",
       "address": {
         "@type": "PostalAddress",
@@ -42,265 +85,139 @@
         "addressCountry": "IN"
       }
     },
-  
-    "image": [
-      "https://spiritiitbhu.org/images/Spirit_26_logo.png"
-    ],
-  
-    "organizer": {
-      "@type": "Organization",
-      "name": "SPIRIT IIT BHU",
-      "url": "https://spiritiitbhu.org"
-    },
-  
-    "offers": [
+
     {
-      "@type": "Offer",
-      "name": "Standard Ticket (Without Referral)",
-      "url": "https://spiritiitbhu.org/payment",
-      "price": "2750",
-      "priceCurrency": "INR",
-      "availability": "https://schema.org/InStock",
-      "validFrom": "2026-03-25T00:00"
+      "@type": "ItemList",
+      "@id": "https://spiritiitbhu.org/#speakers",
+      "name": "SPIRIT IIT BHU 2026 Speakers",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "item": { "@id": "https://spiritiitbhu.org/#parthasarathy" } },
+        { "@type": "ListItem", "position": 2, "item": { "@id": "https://spiritiitbhu.org/#pulok" } },
+        { "@type": "ListItem", "position": 3, "item": { "@id": "https://spiritiitbhu.org/#ranjana" } },
+        { "@type": "ListItem", "position": 4, "item": { "@id": "https://spiritiitbhu.org/#sanjeeb" } },
+        { "@type": "ListItem", "position": 5, "item": { "@id": "https://spiritiitbhu.org/#sashi" } },
+        { "@type": "ListItem", "position": 6, "item": { "@id": "https://spiritiitbhu.org/#shivam" } }
+      ]
     },
-    {
-      "@type": "Offer",
-      "name": "Discounted Ticket (With Referral Code)",
-      "url": "https://spiritiitbhu.org/payment",
-      "price": "2250",
-      "priceCurrency": "INR",
-      "availability": "https://schema.org/InStock",
-      "validFrom": "2026-03-25T00:00",
-      "description": "Price applicable when a valid referral code is used."
-    }
-  ],
-  "performer": [
+
     {
       "@type": "Person",
-      "@id": "https://spiritiitbhu.org/speakers/#parthasarathy-sampath-kumar",
+      "@id": "https://spiritiitbhu.org/#parthasarathy",
       "name": "Parthasarathy Sampath Kumar",
       "jobTitle": "Head Group Center of Excellence",
-      "worksFor": {
-        "@type": "Organization",
-        "name": "Biocon Group"
-      },
+      "worksFor": { "@type": "Organization", "name": "Biocon Group" },
       "image": "https://spiritiitbhu.org/new_speakers/ParthsarathySampathKumar.jpeg",
-      "sameAs": ["https://www.linkedin.com/in/parthas/"],
-      "subjectOf": {
-    "@type": "Event",
-    "@id": "https://spiritiitbhu.org/#event"
-  }
+      "sameAs": ["https://www.linkedin.com/in/parthas/"]
     },
     {
       "@type": "Person",
-      "@id": "https://spiritiitbhu.org/speakers/#pulok-mukherjee",
+      "@id": "https://spiritiitbhu.org/#pulok",
       "name": "Pulok Mukherjee",
       "jobTitle": "Founder",
-      "worksFor": {
-        "@type": "Organization",
-        "name": "Society for Ethnopharmacology, Kolkata"
-      },
+      "worksFor": { "@type": "Organization", "name": "Society for Ethnopharmacology, Kolkata" },
       "image": "https://spiritiitbhu.org/new_speakers/PulokMukherjee.jpeg",
-      "sameAs": ["https://www.linkedin.com/in/pulok-kumar-mukherjee-%E0%A4%AA%E0%A5%81%E0%A4%B2%E0%A5%8B%E0%A4%95-%E0%A4%95%E0%A5%81%E0%A4%AE%E0%A4%BE%E0%A4%B0-%E0%A4%AE%E0%A5%81%E0%A4%96%E0%A4%B0%E0%A5%8D%E0%A4%9C%E0%A5%80-24194964/"],
-      "subjectOf": {
-    "@type": "Event",
-    "@id": "https://spiritiitbhu.org/#event"
-  }
+      "sameAs": ["https://www.linkedin.com/in/pulok-kumar-mukherjee-%E0%A4%AA%E0%A5%81%E0%A4%B2%E0%A5%8B%E0%A4%95-%E0%A4%95%E0%A5%81%E0%A4%AE%E0%A4%BE%E0%A4%B0-%E0%A4%AE%E0%A5%81%E0%A4%96%E0%A4%B0%E0%A5%8D%E0%A4%9C%E0%A5%80-24194964/"]
     },
     {
       "@type": "Person",
-      "@id": "https://spiritiitbhu.org/speakers/#ranjana-pathak",
+      "@id": "https://spiritiitbhu.org/#ranjana",
       "name": "Ranjana Pathak",
       "jobTitle": "President, Global Chief Quality Officer",
-      "worksFor": {
-        "@type": "Organization",
-        "name": "Lupin"
-      },
+      "worksFor": { "@type": "Organization", "name": "Lupin" },
       "image": "https://spiritiitbhu.org/new_speakers/RanjanaPathak.jpg",
-      "sameAs": ["https://www.linkedin.com/in/dr-ranjana-pathak-971907a4/"],
-      "subjectOf": {
-    "@type": "Event",
-    "@id": "https://spiritiitbhu.org/#event"
-  }
+      "sameAs": ["https://www.linkedin.com/in/dr-ranjana-pathak-971907a4/"]
     },
     {
       "@type": "Person",
-      "@id": "https://spiritiitbhu.org/speakers/#sanjeeb-kumar-mishra",
+      "@id": "https://spiritiitbhu.org/#sanjeeb",
       "name": "Sanjeeb Kumar Mishra",
       "jobTitle": "President - Quality",
-      "worksFor": {
-        "@type": "Organization",
-        "name": "Bharat Serums and Vaccines Limited"
-      },
+      "worksFor": { "@type": "Organization", "name": "Bharat Serums and Vaccines Limited" },
       "image": "https://spiritiitbhu.org/new_speakers/SanjeebMishra.jpeg",
-      "sameAs": ["https://www.linkedin.com/in/dr-sanjeeb-kumar-mishra-21387a29/"],
-      "subjectOf": {
-    "@type": "Event",
-    "@id": "https://spiritiitbhu.org/#event"
-  }
+      "sameAs": ["https://www.linkedin.com/in/dr-sanjeeb-kumar-mishra-21387a29/"]
     },
     {
       "@type": "Person",
-      "@id": "https://spiritiitbhu.org/speakers/#sashi-bala-singh",
+      "@id": "https://spiritiitbhu.org/#sashi",
       "name": "Sashi Bala Singh",
       "jobTitle": "Former Director General for Life Sciences",
-      "worksFor": {
-        "@type": "Organization",
-        "name": "DRDO"
-      },
+      "worksFor": { "@type": "Organization", "name": "DRDO" },
       "image": "https://spiritiitbhu.org/new_speakers/SashiBalaSingh.jpeg",
-      "sameAs": ["https://www.linkedin.com/in/shashi-bala-singh-5525013a/"],
-      "subjectOf": {
-    "@type": "Event",
-    "@id": "https://spiritiitbhu.org/#event"
-  }
+      "sameAs": ["https://www.linkedin.com/in/shashi-bala-singh-5525013a/"]
     },
     {
       "@type": "Person",
-      "@id": "https://spiritiitbhu.org/speakers/#shivam-puri",
+      "@id": "https://spiritiitbhu.org/#shivam",
       "name": "Shivam Puri",
       "jobTitle": "Managing Director & Chief Executive Officer",
-      "worksFor": {
-        "@type": "Organization",
-        "name": "Cipla Health Ltd"
-      },
+      "worksFor": { "@type": "Organization", "name": "Cipla Health Ltd" },
       "image": "https://spiritiitbhu.org/new_speakers/ShivamPuri.jpeg",
-      "sameAs": ["https://www.linkedin.com/in/shivam-puri-6431806/"],
-      "subjectOf": {
-    "@type": "Event",
-    "@id": "https://spiritiitbhu.org/#event"
-  }
-    }
-  ],
-  "subEvent": [
-  {
-    "@type": "Event",
-    "name": "PharmaQuest",
-    "eventType": "Quiz Competition",
-    "startDate": "2026-04-03T09:00",
-    "endDate": "2026-04-05T21:00",
-    "url": "https://unstop.com/quiz/pharmaquest-spirit26-iit-bhu-1637644",
-    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-    "location": {
-      "@type": "Place",
-      "name": "Indian Institute of Technology (BHU) Varanasi",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Banaras Hindu University",
-        "addressLocality": "Varanasi",
-        "addressRegion": "Uttar Pradesh",
-        "postalCode": "221005",
-        "addressCountry": "IN"
-      }
+      "sameAs": ["https://www.linkedin.com/in/shivam-puri-6431806/"]
     },
-    "organizer": {
-      "@type": "Organization",
-      "name": "SPIRIT IIT BHU"
-    }
-  },
-  {
-    "@type": "Event",
-    "name": "PharmaNexus: Strategic Case Competition",
-    "eventType": "Case Competition",
-    "startDate": "2026-04-03T09:00",
-    "endDate": "2026-04-05T21:00",
-    "url": "https://unstop.com/competitions/pharmanexus-strategic-case-competition-spirit26-iit-bhu-1624610",
-    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-    "location": {
-      "@type": "Place",
-      "name": "Indian Institute of Technology (BHU) Varanasi",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Banaras Hindu University",
-        "addressLocality": "Varanasi",
-        "addressRegion": "Uttar Pradesh",
-        "postalCode": "221005",
-        "addressCountry": "IN"
-      }
+
+    {
+      "@type": "Event",
+      "@id": "https://spiritiitbhu.org/#pharmaquest",
+      "name": "PharmaQuest",
+      "startDate": "2026-04-03T09:00",
+      "endDate": "2026-04-05T21:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "location": { "@id": "https://spiritiitbhu.org/#venue" },
+      "url": "https://unstop.com/quiz/pharmaquest-spirit26-iit-bhu-1637644",
+      "superEvent": { "@id": "https://spiritiitbhu.org/#event" }
     },
-    "organizer": {
-      "@type": "Organization",
-      "name": "SPIRIT IIT BHU"
-    }
-  },
-  {
-    "@type": "Event",
-    "name": "InnovareX: Poster & Digital Research Showcase",
-    "eventType": "Research Showcase",
-    "startDate": "2026-04-03T09:00",
-    "endDate": "2026-04-05T21:00",
-    "url": "https://unstop.com/events/innovarex-poster-digital-research-showcase-spirit26-iit-bhu-1624616",
-    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-    "location": {
-      "@type": "Place",
-      "name": "Indian Institute of Technology (BHU) Varanasi",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Banaras Hindu University",
-        "addressLocality": "Varanasi",
-        "addressRegion": "Uttar Pradesh",
-        "postalCode": "221005",
-        "addressCountry": "IN"
-      }
+
+    {
+      "@type": "Event",
+      "@id": "https://spiritiitbhu.org/#pharmanexus",
+      "name": "PharmaNexus: Strategic Case Competition",
+      "startDate": "2026-04-03T09:00",
+      "endDate": "2026-04-05T21:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "location": { "@id": "https://spiritiitbhu.org/#venue" },
+      "url": "https://unstop.com/competitions/pharmanexus-strategic-case-competition-spirit26-iit-bhu-1624610",
+      "superEvent": { "@id": "https://spiritiitbhu.org/#event" }
     },
-    "organizer": {
-      "@type": "Organization",
-      "name": "SPIRIT IIT BHU"
-    }
-  },
-  {
-    "@type": "Event",
-    "name": "Fabrica360: Fabrica Modelling Competition",
-    "eventType": "Modelling Competition",
-    "startDate": "2026-04-03T09:00",
-    "endDate": "2026-04-05T21:00",
-    "url": "https://unstop.com/events/fabrica360-fabrica-modelling-competition-spirit26-iit-bhu-1630759",
-    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-    "location": {
-      "@type": "Place",
-      "name": "Indian Institute of Technology (BHU) Varanasi",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Banaras Hindu University",
-        "addressLocality": "Varanasi",
-        "addressRegion": "Uttar Pradesh",
-        "postalCode": "221005",
-        "addressCountry": "IN"
-      }
+
+    {
+      "@type": "Event",
+      "@id": "https://spiritiitbhu.org/#innovarex",
+      "name": "InnovareX: Poster & Digital Research Showcase",
+      "startDate": "2026-04-03T09:00",
+      "endDate": "2026-04-05T21:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "location": { "@id": "https://spiritiitbhu.org/#venue" },
+      "url": "https://unstop.com/events/innovarex-poster-digital-research-showcase-spirit26-iit-bhu-1624616",
+      "superEvent": { "@id": "https://spiritiitbhu.org/#event" }
     },
-    "organizer": {
-      "@type": "Organization",
-      "name": "SPIRIT IIT BHU"
-    }
-  },
-  {
-    "@type": "Event",
-    "name": "Codecure: AI Hackathon",
-    "eventType": "Hackathon",
-    "startDate": "2026-04-03T09:00",
-    "endDate": "2026-04-05T21:00",
-    "url": "https://unstop.com/hackathons/codecure-ai-hackathon-spirit26-iit-bhu-1624607",
-    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-    "location": {
-      "@type": "Place",
-      "name": "Indian Institute of Technology (BHU) Varanasi",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Banaras Hindu University",
-        "addressLocality": "Varanasi",
-        "addressRegion": "Uttar Pradesh",
-        "postalCode": "221005",
-        "addressCountry": "IN"
-      }
+
+    {
+      "@type": "Event",
+      "@id": "https://spiritiitbhu.org/#fabrica360",
+      "name": "Fabrica360: Fabrica Modelling Competition",
+      "startDate": "2026-04-03T09:00",
+      "endDate": "2026-04-05T21:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "location": { "@id": "https://spiritiitbhu.org/#venue" },
+      "url": "https://unstop.com/events/fabrica360-fabrica-modelling-competition-spirit26-iit-bhu-1630759",
+      "superEvent": { "@id": "https://spiritiitbhu.org/#event" }
     },
-    "organizer": {
-      "@type": "Organization",
-      "name": "SPIRIT IIT BHU"
+
+    {
+      "@type": "Event",
+      "@id": "https://spiritiitbhu.org/#codecure",
+      "name": "Codecure: AI Hackathon",
+      "startDate": "2026-04-03T09:00",
+      "endDate": "2026-04-05T21:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "location": { "@id": "https://spiritiitbhu.org/#venue" },
+      "url": "https://unstop.com/hackathons/codecure-ai-hackathon-spirit26-iit-bhu-1624607",
+      "superEvent": { "@id": "https://spiritiitbhu.org/#event" }
     }
-  }
-]
-  }
-  </script>
+
+  ]
+}
+</script>
 
 </head>
 
