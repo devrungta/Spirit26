@@ -93,25 +93,16 @@ const Navbar = () => {
                   <span className="absolute inset-x-0 bottom-0 h-0.5 bg-sky-400 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300" />
                 </a>
               ))}
-              {/* <a
-                href="https://drive.google.com/file/d/1pYQbkwUnh6I-bSo8-yMyvb_eaDVUHijw/view"
+              <a
+                href="https://drive.google.com/file/d/1zOcHHK1OE_RjRUha-CV0VcVSn0Rt2ztT/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group relative px-8 py-3 text-lg overflow-hidden rounded-full border-2 border-sky-600 text-sky-600 transition-all duration-300 hover:text-white"
               >
-                <span className="relative z-10">Schedule</span>
+                <span className="relative z-10">Tentative Schedule</span>
                 <div className="absolute inset-0 bg-sky-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left rounded-full hover:text-white"></div>
-              </a> */}
-              <motion.a
-                onClick={ScheduleClick}
-                target="_blank"
-                className="group relative px-8 py-3 text-lg md:text-xl overflow-hidden rounded-full border-2 border-blue-400 text-blue-400 transition-all duration-300 hover:text-white hover:bg-blue-400 ">
-                {showMessage ? (
-                  <span className="text-red-500 font-bold">Coming Soon</span>
-                ) : (
-                  "See Schedule"
-                )}
-              </motion.a>
+              </a>
+              
               
             </div>
 
