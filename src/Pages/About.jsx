@@ -121,12 +121,6 @@ StatCounter.propTypes = {
   label: PropTypes.string.isRequired,
 };
 const About = () => {
-  const [showMessage, setShowMessage] = useState(false);
-
-  const handleClick = () => {
-    setShowMessage(true);
-    setTimeout(() => setShowMessage(false), 2000); // Reverts back after 2 sec
-  };
   return (
     <div className="max-w-7xl mx-auto px-4 py-8 space-y-12">
       <div className="flex justify-center">
@@ -162,10 +156,10 @@ const About = () => {
             </p>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-              <StatCounter value="10+" label="SPEAKERS" />
+              <StatCounter value="5+" label="SPEAKERS" />
               <StatCounter value="13th" label="Edition" />
               <StatCounter value="2" label="DAYS" />
-              <StatCounter value="5+" label="Events" />
+              <StatCounter value="5" label="Events" />
             </div>
           </div>
         </div>
@@ -239,14 +233,10 @@ const About = () => {
 
       <div className="flex justify-end">
         <motion.a
-          onClick={handleClick}
+          href="https://drive.google.com/file/d/1zOcHHK1OE_RjRUha-CV0VcVSn0Rt2ztT/view?usp=sharing"
           target="_blank"
           className="bg-gradient-to-r from-sky-500 to-sky-500 text-white px-6 py-3 rounded-lg font-medium hover:shadow-lg transition-shadow"                    >
-          {showMessage ? (
-            <span className="text-red-500 font-bold">Coming Soon</span>
-          ) : (
-            "See Schedule"
-          )}
+          Tentative Schedule
         </motion.a>
       </div>
     </div>

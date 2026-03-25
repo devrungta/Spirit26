@@ -34,8 +34,45 @@ NewSpeakerCard.propTypes = {
 };
 
 const NewSpeakers = () => {
-    const newSpeakers = [];
-    { /* Add new speakers here in the same format as in Speakers.jsx */ }
+    const newSpeakers = [
+        {
+            name: "Parthasarathy Sampath Kumar",
+            image: "/new_speakers/ParthsarathySampathKumar.jpeg",
+            des: "Head Group Center of Excellence",
+            logo: "/new_speakers/biocon_group_logo.jpg",
+            company: "Biocon Group",
+        }, {
+            name: "Pulok Mukherjee",
+            image: "/new_speakers/PulokMukherjee.jpeg",
+            des: "Founder",
+            logo: "/new_speakers/SocietyForEthnopharmacology.jpg",
+            company: "Society for Ethnopharmacology, Kolkata",
+        }, {
+            name: "Ranjana Pathak",
+            image: "/new_speakers/RanjanaPathak.jpg",
+            des: "President, Global Chief Quality Officer",
+            logo: "/new_speakers/LupinPharma.jpeg",
+            company: "Lupin",
+        }, {
+            name: "Sanjeeb Kumar Mishra",
+            image: "/new_speakers/SanjeebMishra.jpeg",
+            des: "president- Quality",
+            logo: "/new_speakers/BharatSerumsAndVaccinesLimited.jpg",
+            company: "Bharat Serums and Vaccines Limited",
+        }, {
+            name: "Sashi Bala Singh",
+            image: "/new_speakers/SashiBalaSingh.jpeg",
+            des: "Former Director General for Life Sciences",
+            logo: "/new_speakers/DRDO.jpeg",
+            company: "DRDO",
+        }, {
+            name: "Shivam Puri",
+            image: "/new_speakers/ShivamPuri.jpeg",
+            des: "Managing Director & Chief Executive Officer",
+            logo: "/new_speakers/CiplaHealth.jpeg",
+            company: "Cipla Health Ltd",
+        },
+    ];
     return (
         <div id="speakers" className="py-16 ">
             <div className="max-w-7xl mx-auto px-4">
