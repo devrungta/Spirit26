@@ -173,8 +173,8 @@ const PaymentPage = () => {
         {
             id: "all",
             title: "Participants",
-            withEarlyBird: "INR 2250",
-            withoutEarlyBird: "INR 2750",
+            withReferralCode: "INR 2250",
+            withoutReferralCode: "INR 2750",
             icon: FaLock,
             color: "from-green-500 to-emerald-500"
         }
@@ -290,17 +290,17 @@ const PaymentPage = () => {
 
                                     <div className="space-y-3 mb-6">
                                         <div>
-                                            <p className="text-gray-600 text-sm mb-1">With Early Bird</p>
+                                            <p className="text-gray-600 text-sm mb-1">With Referral Codes</p>
                                             <p className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-sky-600 text-transparent bg-clip-text">
-                                                {category.withEarlyBird}
+                                                {category.withReferralCode}
                                             </p>
                                         </div>
-                                        {/* <div>
-                                            <p className="text-gray-600 text-sm mb-1">Without Early Bird</p>
+                                        <div>
+                                            <p className="text-gray-600 text-sm mb-1">Without Referral Codes</p>
                                             <p className="text-xl font-semibold text-gray-700">
-                                                {category.withoutEarlyBird}
+                                                {category.withoutReferralCode}
                                             </p>
-                                        </div> */}
+                                        </div>
                                     </div>
 
                                     {/* Button */}

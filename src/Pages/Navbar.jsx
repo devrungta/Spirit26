@@ -1,15 +1,8 @@
 import  { useState, useEffect } from "react";
-import { motion } from "framer-motion";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-
-  const ScheduleClick = () => {
-    setShowMessage(true);
-    setTimeout(() => setShowMessage(false), 2000); // Reverts back after 2 sec
-  };
-  
 
   useEffect(() => {
     const handleScroll = () => {
@@ -45,10 +38,8 @@ const Navbar = () => {
     }
   };
   
-  const [showMessage, setShowMessage] = useState(false);
     
   const handleClick = (id) => {
-    setShowMessage(false);
     const section = document.getElementById(id);
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });
