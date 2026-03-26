@@ -171,33 +171,33 @@ const About = () => {
           {[
             {
               icon: <FaReact size={40} className="text-sky-600" />,
-              title: "Cellular Crescendo: ",
-              description: "Exploring Interactions",
+              title: "AI-Pharma Nexus: ",
+              description: " AI, automation, and digital technologies transforming healthcare decisions.",
             },
             {
               icon: <FaFlask size={40} className="text-sky-600" />,
-              title: "Medicinal Alchemy: ",
-              description: "The Art and Science of Pharmaceutical Chemistry",
+              title: "PrecisionRx:",
+              description: "Genomics-driven, personalized therapies for smarter treatment outcomes.",
             },
             {
               icon: <FaCogs size={40} className="text-sky-600" />,
-              title: "The Crystal Conclave: ",
-              description: "Advancing Pharmaceutics Research",
+              title: "Integrative Medix:",
+              description: "Pharmacognosy-driven integration of natural products with modern medicine.",
             },
             {
               icon: <FaShieldAlt size={40} className="text-sky-600" />,
-              title: "Pharmacovigilance Pathways: ",
-              description: "Regulations in Drug Development",
+              title: "NextGen Therapeutics:",
+              description: "Innovative biologics, gene therapies, and experimental pharmacology.",
             },
             {
               icon: <FaBrain size={40} className="text-sky-600" />,
-              title: "Neuropharmacology Nexus: ",
-              description: "Approaches in Pharmacology",
+              title: "PharmaSure: ",
+              description: "Ensuring drug safety, quality assurance, regulatory compliance, and pharmacovigilance across modern drug development",
             },
             {
               icon: <FaSyringe size={40} className="text-sky-600" />,
-              title: "Vaccinating the Future: ",
-              description: "Innovation in Immunotherapics",
+              title: "NanoCure: ",
+              description: "Formulation science and drug delivery systems driving effective therapeutics.",
             },
           ].map((track, index) => (
             <motion.div
