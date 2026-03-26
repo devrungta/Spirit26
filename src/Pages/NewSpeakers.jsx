@@ -38,15 +38,15 @@ const NewSpeakers = () => {
         {
             name: "Parthasarathy Sampath Kumar",
             image: "/new_speakers/ParthsarathySampathKumar.jpeg",
-            des: "Head Group Center of Excellence",
+            des: "Head- Group Center of Excellence",
             logo: "/new_speakers/biocon_group_logo.jpg",
             company: "Biocon Group",
         }, {
             name: "Pulok Mukherjee",
             image: "/new_speakers/PulokMukherjee.jpeg",
-            des: "Founder",
-            logo: "/new_speakers/SocietyForEthnopharmacology.jpg",
-            company: "Society for Ethnopharmacology, Kolkata",
+            des: "Former Director",
+            logo: "/new_speakers/InstituteOfBioresourcesAndSustainableDeveloppment.jpeg",
+            company: " Institute of Bioresources and Sustainable Development, DBT, Govt. of India",
         }, {
             name: "Ranjana Pathak",
             image: "/new_speakers/RanjanaPathak.jpg",
@@ -56,15 +56,15 @@ const NewSpeakers = () => {
         }, {
             name: "Sanjeeb Kumar Mishra",
             image: "/new_speakers/SanjeebMishra.jpeg",
-            des: "president- Quality",
+            des: "President- Quality",
             logo: "/new_speakers/BharatSerumsAndVaccinesLimited.jpg",
             company: "Bharat Serums and Vaccines Limited",
         }, {
-            name: "Sashi Bala Singh",
+            name: "Shashi Bala Singh",
             image: "/new_speakers/SashiBalaSingh.jpeg",
             des: "Former Director General for Life Sciences",
             logo: "/new_speakers/DRDO.jpeg",
-            company: "DRDO",
+            company: "DRDO, Govt. of India",
         }, {
             name: "Shivam Puri",
             image: "/new_speakers/ShivamPuri.jpeg",

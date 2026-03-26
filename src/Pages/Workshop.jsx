@@ -4,7 +4,7 @@ const Workshop = () => {
     return (
         <div className="bg-white shadow-xl rounded-2xl p-6 max-w-3xl mx-auto border border-gray-200 mt-10">
                     <h2 className="text-2xl font-bold text-center text-sky-500 mb-6">
-                        Want to join the workshop?? 
+                        Want to join the workshop?
                     </h2>
                     <div className="flex flex-col items-center space-y-6">
                         <div className="flex items-center justify-center w-16 h-16 bg-sky-100 rounded-full">
@@ -12,10 +12,14 @@ const Workshop = () => {
                         </div>
                         <p className="text-gray-700 text-center text-sm leading-relaxed">
                             <span className="inline-block mt-2">
-                        Join us for an insightful workshop on <span className="font-semibold text-sky-600">Artificial Intelligence in
-                        Pharmaceuticals</span>, where we explore how AI is revolutionizing drug discovery, development, and patient care. This workshop brings together industry experts and researchers to discuss real-world implementations,
-                        challenges, and future opportunities in AI-driven pharmaceutical innovation. Whether you&apos;re a student, researcher, or
-                        healthcare professional, discover how machine learning and AI technologies are accelerating the path from lab to clinic.
+                        The Pre-Conference Workshop at SPIRIT 2026 on <span className="font-bold text-sky-500">3rd April 2026</span> will offer a concise, hands-on introduction to
+                        multi-omics–based machine learning for precision medicine, led by <span className="font-bold text-sky-500">Dr. Aparajita Khan</span>. Participants will work
+                        with curated datasets from the <b>UCSC Xena Browser</b>, learning to load and explore multi-omics data, perform
+                        clustering on gene expression and integrated datasets, apply PCA for dimensionality reduction, and conduct
+                        differential gene expression analysis while relating findings to phenotypic factors such as age, sex and smoking
+                        status. The workshop is designed to give a clear, practical workflow and demonstrate how integrating diverse biological
+                        data can generate meaningful insights, making it an ideal starting point for those interested in computational biology
+                        and precision medicine.
                             </span>
                         </p>
         

@@ -27,7 +27,7 @@ const Navbar = () => {
     { name: "Events", href: "#events" },
     { name: "Workshop", href: "#workshop" },
     { name: "CA", href: "#ca" },
-    { name: "Conferrence", href: "#virtual_conferrence" },
+    { name: "Conference", href: "#virtual_conferrence" },
     { name: "Contact", href: "#footer1" },
   ];
   const handleScroll = (e, targetId) => {
