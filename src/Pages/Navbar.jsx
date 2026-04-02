@@ -85,12 +85,12 @@ const Navbar = () => {
                 </a>
               ))}
               <a
-                href="https://drive.google.com/file/d/1zOcHHK1OE_RjRUha-CV0VcVSn0Rt2ztT/view?usp=sharing"
+                href="https://drive.google.com/file/d/1oQVNzXtt5rO3fdIPWUCzVGmQYnPiRpJq/view?usp=drivesdk"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group relative px-8 py-3 text-lg overflow-hidden rounded-full border-2 border-sky-600 text-sky-600 transition-all duration-300 hover:text-white"
               >
-                <span className="relative z-10">Tentative Schedule</span>
+                <span className="relative z-10">Schedule</span>
                 <div className="absolute inset-0 bg-sky-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left rounded-full hover:text-white"></div>
               </a>
               
@@ -128,7 +128,7 @@ const Navbar = () => {
               }</button> */}
 
               {/* <a
-                href="https://drive.google.com/file/d/1pYQbkwUnh6I-bSo8-yMyvb_eaDVUHijw/view"
+                href"https://drive.google.com/file/d/1oQVNzXtt5rO3fdIPWUCzVGmQYnPiRpJq/view?usp=drivesdk"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block px-8 py-3 text-center rounded-full border-2 border-sky-600 text-sky-600 transition-all duration-300 hover:text-white group relative overflow-hidden"
