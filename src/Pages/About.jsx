@@ -233,7 +233,7 @@ const About = () => {
 
       <div className="flex justify-end">
         <motion.a
-          href="https://drive.google.com/file/d/1oQVNzXtt5rO3fdIPWUCzVGmQYnPiRpJq/view?usp=drivesdk"
+          href="https://drive.google.com/file/d/1s8OkHNEy7Hqe6bHmjxsCbsrPa-WsOqf9/view?usp=sharing"
           target="_blank"
           className="bg-gradient-to-r from-sky-500 to-sky-500 text-white px-6 py-3 rounded-lg font-medium hover:shadow-lg transition-shadow"                    >
           Schedule

@@ -85,7 +85,7 @@ const Navbar = () => {
                 </a>
               ))}
               <a
-                href="https://drive.google.com/file/d/1oQVNzXtt5rO3fdIPWUCzVGmQYnPiRpJq/view?usp=drivesdk"
+                href="https://drive.google.com/file/d/1s8OkHNEy7Hqe6bHmjxsCbsrPa-WsOqf9/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group relative px-8 py-3 text-lg overflow-hidden rounded-full border-2 border-sky-600 text-sky-600 transition-all duration-300 hover:text-white"
