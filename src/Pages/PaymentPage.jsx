@@ -399,7 +399,7 @@ const PaymentPage = () => {
 
                                     <div className="space-y-3">
                                         <button
-                                            onClick={() => window.open("https://forms.gle/pmWs1di7qBBukmqH8", "_blank")}
+                                            onClick={() => window.open("https://forms.gle/5i1APcw5fweB8NKf8", "_blank")}
                                             disabled={!isCodeValid}
                                             className={`w-full py-2.5 rounded-lg font-medium transition-all ${isCodeValid
                                                 ? "bg-blue-500 hover:bg-green-600"
@@ -410,7 +410,7 @@ const PaymentPage = () => {
                                         </button>
 
                                         <button
-                                            onClick={() => window.open("https://forms.gle/F98ps6LDJbrnJRGB8", "_blank")}
+                                            onClick={() => window.open("https://forms.gle/Bf6yibk3K9nLeZGh9", "_blank")}
                                             className="w-full py-3 rounded-lg font-bold bg-gradient-to-r from-sky-400 to-blue-500 hover:from-yellow-300 hover:to-amber-400 transition-all transform hover:scale-[1.02] shadow-lg hover:shadow-xl group"
                                         >
                                             <motion.div
